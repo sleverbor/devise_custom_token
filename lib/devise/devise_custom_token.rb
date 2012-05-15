@@ -1,5 +1,6 @@
 require 'devise'
 require 'devise/strategies/token_authenticatable'
+
 module Devise
   mattr_accessor :non_token_auth_value
   @@non_token_auth_value='token'
