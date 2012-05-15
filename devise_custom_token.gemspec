@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "Customize basic auth header when using token_authenticatable with devise."
   s.description = "Customize basic auth header when using token_authenticatable with devise."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["Rakefile"]
 
   s.add_development_dependency "rails", "~> 3.2.3"
 
